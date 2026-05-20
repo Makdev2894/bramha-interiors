@@ -1,12 +1,14 @@
 <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
   <title>Bramha Interiors</title>
-  <!-- Saffron background — high contrast on any tab bar -->
   <circle cx="16" cy="16" r="16" fill="#FF7A00"/>
-  <!-- Bold cream lotus, simplified for tiny-size legibility -->
-  <path d="M16 27 C16 27 5 21 5 13 C5 8 9 5 16 5 C23 5 27 8 27 13 C27 21 16 27 16 27 Z"
-        fill="none" stroke="#FAF7F0" stroke-width="2" stroke-linejoin="round"/>
-  <path d="M16 27 C16 27 9 22 9 16 C9 12 12 10 16 10 C20 10 23 12 23 16 C23 22 16 27 16 27 Z"
-        fill="#FAF7F0"/>
-  <!-- Gold centre dot -->
-  <circle cx="16" cy="16" r="2.5" fill="#D4A017"/>
+  <g transform="translate(16 16)">
+    <g fill="#FAF7F0" stroke="#D4A017" stroke-width="0.5" stroke-linejoin="round">
+      <path d="M0 -13 C2.4 -8.5, 2.4 -4.5, 0 -1.5 C-2.4 -4.5, -2.4 -8.5, 0 -13 Z"/>
+      <path d="M0 -13 C2.4 -8.5, 2.4 -4.5, 0 -1.5 C-2.4 -4.5, -2.4 -8.5, 0 -13 Z" transform="rotate(72)"/>
+      <path d="M0 -13 C2.4 -8.5, 2.4 -4.5, 0 -1.5 C-2.4 -4.5, -2.4 -8.5, 0 -13 Z" transform="rotate(144)"/>
+      <path d="M0 -13 C2.4 -8.5, 2.4 -4.5, 0 -1.5 C-2.4 -4.5, -2.4 -8.5, 0 -13 Z" transform="rotate(216)"/>
+      <path d="M0 -13 C2.4 -8.5, 2.4 -4.5, 0 -1.5 C-2.4 -4.5, -2.4 -8.5, 0 -13 Z" transform="rotate(288)"/>
+    </g>
+    <circle r="2.6" fill="#D4A017"/>
+  </g>
 </svg>

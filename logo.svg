@@ -1,23 +1,16 @@
 <svg width="240" height="60" viewBox="0 0 240 60" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bramha Interiors Logo">
   <title>Bramha Interiors</title>
 
-  <!-- Lotus icon (36×36, centred vertically) -->
-  <g transform="translate(0, 12)">
-    <!-- Outer petal outline -->
-    <path d="M18 33C18 33 2 23 2 13C2 6 8 2 18 2C28 2 34 6 34 13C34 23 18 33 18 33Z"
-          fill="none" stroke="#D4A017" stroke-width="1.2"/>
-    <!-- Inner filled petal -->
-    <path d="M18 33C18 33 7 25 7 16C7 11 11 8 18 8C25 8 29 11 29 16C29 25 18 33 18 33Z"
-          fill="#FF7A00" opacity="0.88"/>
-    <!-- Centre stem -->
-    <line x1="18" y1="8" x2="18" y2="33" stroke="#D4A017" stroke-width="0.9" opacity="0.65"/>
-    <!-- Centre dot -->
-    <circle cx="18" cy="15.5" r="2.2" fill="#D4A017"/>
-    <!-- Lower petal curves -->
-    <path d="M9 20 Q13.5 15.5 18 18 Q22.5 15.5 27 20"
-          stroke="#D4A017" stroke-width="0.9" fill="none" opacity="0.75"/>
-    <path d="M11 25.5 Q14.5 21 18 23 Q21.5 21 25 25.5"
-          stroke="#D4A017" stroke-width="0.9" fill="none" opacity="0.5"/>
+  <!-- Shaktimaan five-petal lotus (36×36, centred at 18,30) -->
+  <g transform="translate(18 30)">
+    <g fill="#FF7A00" stroke="#D4A017" stroke-width="0.7" stroke-linejoin="round">
+      <path d="M0 -16 C2.8 -10.5, 2.8 -5.5, 0 -2 C-2.8 -5.5, -2.8 -10.5, 0 -16 Z"/>
+      <path d="M0 -16 C2.8 -10.5, 2.8 -5.5, 0 -2 C-2.8 -5.5, -2.8 -10.5, 0 -16 Z" transform="rotate(72)"/>
+      <path d="M0 -16 C2.8 -10.5, 2.8 -5.5, 0 -2 C-2.8 -5.5, -2.8 -10.5, 0 -16 Z" transform="rotate(144)"/>
+      <path d="M0 -16 C2.8 -10.5, 2.8 -5.5, 0 -2 C-2.8 -5.5, -2.8 -10.5, 0 -16 Z" transform="rotate(216)"/>
+      <path d="M0 -16 C2.8 -10.5, 2.8 -5.5, 0 -2 C-2.8 -5.5, -2.8 -10.5, 0 -16 Z" transform="rotate(288)"/>
+    </g>
+    <circle r="3.2" fill="#D4A017"/>
   </g>
 
   <!-- "Bramha" — Yatra One feel, using a serif-style text block -->

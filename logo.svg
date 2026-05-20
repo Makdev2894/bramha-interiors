@@ -1,0 +1,41 @@
+<svg width="240" height="60" viewBox="0 0 240 60" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bramha Interiors Logo">
+  <title>Bramha Interiors</title>
+
+  <!-- Lotus icon (36×36, centred vertically) -->
+  <g transform="translate(0, 12)">
+    <!-- Outer petal outline -->
+    <path d="M18 33C18 33 2 23 2 13C2 6 8 2 18 2C28 2 34 6 34 13C34 23 18 33 18 33Z"
+          fill="none" stroke="#D4A017" stroke-width="1.2"/>
+    <!-- Inner filled petal -->
+    <path d="M18 33C18 33 7 25 7 16C7 11 11 8 18 8C25 8 29 11 29 16C29 25 18 33 18 33Z"
+          fill="#FF7A00" opacity="0.88"/>
+    <!-- Centre stem -->
+    <line x1="18" y1="8" x2="18" y2="33" stroke="#D4A017" stroke-width="0.9" opacity="0.65"/>
+    <!-- Centre dot -->
+    <circle cx="18" cy="15.5" r="2.2" fill="#D4A017"/>
+    <!-- Lower petal curves -->
+    <path d="M9 20 Q13.5 15.5 18 18 Q22.5 15.5 27 20"
+          stroke="#D4A017" stroke-width="0.9" fill="none" opacity="0.75"/>
+    <path d="M11 25.5 Q14.5 21 18 23 Q21.5 21 25 25.5"
+          stroke="#D4A017" stroke-width="0.9" fill="none" opacity="0.5"/>
+  </g>
+
+  <!-- "Bramha" — Yatra One feel, using a serif-style text block -->
+  <text x="44" y="36"
+        font-family="'Yatra One', 'Georgia', serif"
+        font-size="26"
+        font-weight="400"
+        letter-spacing="0.04em"
+        fill="#1A1008">Bramha</text>
+
+  <!-- "Interiors" — lighter weight, gold tint -->
+  <text x="44" y="53"
+        font-family="'Lato', 'Helvetica Neue', sans-serif"
+        font-size="13"
+        font-weight="300"
+        letter-spacing="0.18em"
+        fill="#D4A017">INTERIORS</text>
+
+  <!-- Thin gold rule under "Bramha" -->
+  <line x1="44" y1="40" x2="238" y2="40" stroke="#D4A017" stroke-width="0.6" opacity="0.4"/>
+</svg>
